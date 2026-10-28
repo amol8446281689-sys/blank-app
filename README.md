@@ -1,29 +1,30 @@
-# 🎈 My new app (React)
+# 🌾 सह्याद्री स्मार्ट हब (Sahyadri Smart Hub)
 
-A React application rewritten from the Streamlit blank app template, preserving the core features, UI aesthetic, and balloon animations.
+एक परिपूर्ण, आधुनिक आणि उपयुक्त द्विभाषिक (मराठी व इंग्रजी) वेब ॲप्लिकेशन – शेतकरी, व्यावसायिक आणि दैनंदिन जीवनातील हिशोब व नियोजनासाठी!
 
-## Features
+## प्रमुख विभाग व वैशिष्ट्ये (Key Features)
 
-- **🎈 Core Screen**: Faithful presentation of the original Streamlit blank app template (`st.title("🎈 My new app")` and link to `docs.streamlit.io`).
-- **🎈 Floating Balloons**: Signature Streamlit `st.balloons()` celebration animation with floating physics and sway.
-- **✨ Confetti / Snow Effect**: Interactive celebration trigger.
-- **📑 Collapsible Sidebar**: Streamlit-styled navigation sidebar with links to official docs, API reference, and community forum.
-- **🎛️ Interactive Widgets**: Live React equivalents for Streamlit inputs (sliders, text input, select boxes).
-- **🌓 Dark Mode**: Seamless toggle between Streamlit Light and Dark themes.
+### १. 🌾 हवामान व शेती (Live Weather & Mandi Rates)
+- **लाईव्ह हवामान अंदाज**: Open-Meteo API द्वारे पुणे, मुंबई, नाशिक, नागपूर, कोल्हापूर, सातारा, सोलापूरसह महाराष्ट्रातील प्रमुख जिल्ह्यांचे थेट तापमान, आर्द्रता, वाऱ्याचा वेग आणि ५ दिवसांचा अंदाज.
+- **कृषी सल्लागार**: हवामानानुसार पिकांची फवारणी, पाणी व्यवस्थापन व खतांचा सल्ला.
+- **बाजारभाव ट्रॅकर (APMC Mandi Rates)**: कांदा, सोयाबीन, कापूस, तूर, गहू, डाळिंब, टोमॅटो यांचे चालू बाजारभाव आणि उत्पन्न कॅल्क्युलेटर.
 
-## Getting Started
+### २. 💰 हिशोब व डिजिटल खातावही (Daily Finance & Khata)
+- **दैनंदिन जमा-खर्च वही**: उत्पन्न आणि खर्चाची वर्गवारीसह नोंद (शेती, खते, किराणा, मजुरी).
+- **उधार-जमा वही (Customer Ledger)**: कोणाकडून किती येणे आहे आणि कोणाला किती देणे आहे याचा हिशोब.
+- **WhatsApp पावती / मेसेज**: एका क्लिकवर बाकी रक्कमेचा मेसेज संबंधित व्यक्तीला पाठवण्याची सुविधा.
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+### ३. 📐 जमीन मोजणी व कर्ज कॅल्क्युलेटर (Calculators)
+- **जमीन मोजणी**: गुंठा, एकर, हेक्टर, चौरस फूट, बिघा आणि आर यांचे परस्पर अचूक रुपांतर व प्लॉटचे व्हिज्युअलायझेशन.
+- **शेकडा व्याज व बँक ईएमआय**: गावातील लोकप्रिय शेकडा दरमहा व्याज (उदा. २ रुपये शेकडा) आणि बँकांचे गृहकर्ज/वाहन कर्ज ईएमआय.
 
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
+### ४. 📝 दैनंदिन कामे, व्हॉईस नोट्स व दिनदर्शिका (Tasks & Notes)
+- **कार्य सूची (To-Do List)**: कामांची वर्गवारी व प्राधान्यक्रम.
+- **मराठी व्हॉईस टायपिंग**: माईक दाबून बोलून झटपट नोट्स नोंदवण्याची सोय.
+- **महाराष्ट्र सण व दिनदर्शिका**: गुढीपाडवा, बेंदूर/पोळा, शिवजयंती, गणेशोत्सव इत्यादींची माहिती.
 
-3. Build for production:
-   ```bash
-   npm run build
-   ```
+### ५. 🎈 आधुनिक तंत्रज्ञान व डिझाईन
+- **द्विभाषिक (Bilingual)**: मराठी आणि इंग्रजी भाषा निवड.
+- **ऑफलाईन डेटा सेव्ह**: सर्व डेटा तुमच्या डिव्हाइसवर `localStorage` मध्ये सुरक्षित राहतो.
+- **डार्क / लाईट मोड**: रात्रीच्या वेळी डोळ्यांना त्रास न होण्यासाठी डार्क थीम.
+- **फुगे व सेलिब्रेशन 🎈**: Streamlit चा प्रसिद्ध फुग्यांचा आणि कॉन्फेटीचा आनंददायी अनुभव.
