@@ -1,25 +1,29 @@
-# 🎈 Blank app template
+# 🎈 My new app (React)
 
-A simple Streamlit app template for you to modify!
+A React application rewritten from the Streamlit blank app template, preserving the core features, UI aesthetic, and balloon animations.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- **🎈 Core Screen**: Faithful presentation of the original Streamlit blank app template (`st.title("🎈 My new app")` and link to `docs.streamlit.io`).
+- **🎈 Floating Balloons**: Signature Streamlit `st.balloons()` celebration animation with floating physics and sway.
+- **✨ Confetti / Snow Effect**: Interactive celebration trigger.
+- **📑 Collapsible Sidebar**: Streamlit-styled navigation sidebar with links to official docs, API reference, and community forum.
+- **🎛️ Interactive Widgets**: Live React equivalents for Streamlit inputs (sliders, text input, select boxes).
+- **🌓 Dark Mode**: Seamless toggle between Streamlit Light and Dark themes.
 
-Prerequisite: install `uv` if you don't already have it.
+## Getting Started
 
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
+1. Install dependencies:
+   ```bash
+   npm install
    ```
-   $ uv sync
+
+2. Start the development server:
+   ```bash
+   npm run dev
    ```
 
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
+3. Build for production:
+   ```bash
+   npm run build
    ```

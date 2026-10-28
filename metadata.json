@@ -1,0 +1,7 @@
+{
+  "name": "My New App",
+  "description": "A clean React app rewritten from the Streamlit blank app template.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
